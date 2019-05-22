@@ -15,12 +15,14 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
     // 1~2.
     @IBOutlet weak var imagee: UIImageView!
     // 3.
     var images = ["ggg1.jpg","ggg2.jpg","ggg3.jpg"]
     override func viewDidLoad() {
         super.viewDidLoad()
+        print("시작")
         
         // 4. 6.
         let swipeRight = UISwipeGestureRecognizer(target: self, action: #selector(respondToSwipeGesture(gesture:)))
