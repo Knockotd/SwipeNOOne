@@ -10,6 +10,12 @@ import UIKit
 
 class SecondViewController: UIViewController {
 
+    @IBOutlet var swipE: UISwipeGestureRecognizer!
+    @IBAction func swipeM(_ sender: Any) {
+        if swipE.direction == .right {
+            tabBarController?.selectedIndex = 0
+        }
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.

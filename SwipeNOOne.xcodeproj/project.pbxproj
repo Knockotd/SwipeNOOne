@@ -13,6 +13,7 @@
 		B82261FA229576A300DE52CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B82261F8229576A300DE52CB /* Main.storyboard */; };
 		B82261FC229576A400DE52CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B82261FB229576A400DE52CB /* Assets.xcassets */; };
 		B82261FF229576A400DE52CB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B82261FD229576A400DE52CB /* LaunchScreen.storyboard */; };
+		B8226207229579E000DE52CB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8226206229579E000DE52CB /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		B82261FB229576A400DE52CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B82261FE229576A400DE52CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B8226200229576A400DE52CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B8226206229579E000DE52CB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				B82261FB229576A400DE52CB /* Assets.xcassets */,
 				B82261FD229576A400DE52CB /* LaunchScreen.storyboard */,
 				B8226200229576A400DE52CB /* Info.plist */,
+				B8226206229579E000DE52CB /* ViewController.swift */,
 			);
 			path = SwipeNOOne;
 			sourceTree = "<group>";
@@ -140,6 +143,7 @@
 			files = (
 				B82261F7229576A300DE52CB /* SecondViewController.swift in Sources */,
 				B82261F3229576A300DE52CB /* AppDelegate.swift in Sources */,
+				B8226207229579E000DE52CB /* ViewController.swift in Sources */,
 				B82261F5229576A300DE52CB /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
